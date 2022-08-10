@@ -8,16 +8,13 @@ da API é mostrar uma amostra de dados de temperatura, nome do ponto solicitado 
 # O que foi Desenvolvido e resolução de problemas durante o desenvolvimento da API:
 - Abaixo o que inicialmente foi pensado para a aplicação do  desenvolvimento do serviço.
 
-- 01:
 - Desenvolver uma API REST em JAVA que retorna os dados dos arquivos em anexo no e-mail de maneira estruturada conforme as seguintes  orientações:
 - a)Retornar um endpoint de leitura dados de séries temporais que mostre a timestamp (ts), amostra de temperatura (dado) e identificação - do ponto (xid) no formato JSON. 
 - b)A consulta deve mostrar id do ponto,  nome do ponto, a timestamp em vetor e dado de temperatura em vetor.
 - c)A estrutura do endpoint deverá conter o campo de id e tempo para realização da consulta.
 
-- 02:
 - Realizar o deploy da API REST desenvolvida na questão anterior utilizando o HEROKU com o sistema operacional Linux.
 
-- 03:
 O código desenvolvido deverá ser publicado em uma página pública como projeto API REST no  GitLab (sua conta pessoal)
 
 - Foram adcionadas novas funcionalidades como deletar e atualizar
