@@ -1,39 +1,24 @@
-# Teste Estágio Java SensorWeb Backend Developer
+# Java Sensor-API Backend Developer
 
-- Descrição do Teste Para Estágio em desenvolvimento Java Backend!
+- Descrição do desenvolvimento da API Java Backend!
 
  - O projeto consiste em uma API REST que retorna um endpoint de leitura de series temporais, a finalidade
 da API é mostrar uma amostra de dados de temperatura, nome do ponto solicitado e identificação do ponto, hoarario e data do tipo timestamp em formato JSON.
 
-# O que foi pedido
-- Teste para Vaga de Desenvolvedor JAVA
+# O que foi Desenvolvido e resolução de problemas durante o desenvolvimento da API:
+- Abaixo o que inicialmente foi pensado para a aplicação do  desenvolvimento do serviço.
 
-- O candidato à vaga deverá analisar as questões, resolvê-las e disponibilizar as respostas (em formato de código e arquivos) conforme as especificações a seguir.
-
-
-- Questão 01:
+- 01:
 - Desenvolver uma API REST em JAVA que retorna os dados dos arquivos em anexo no e-mail de maneira estruturada conforme as seguintes  orientações:
 - a)Retornar um endpoint de leitura dados de séries temporais que mostre a timestamp (ts), amostra de temperatura (dado) e identificação - do ponto (xid) no formato JSON. 
 - b)A consulta deve mostrar id do ponto,  nome do ponto, a timestamp em vetor e dado de temperatura em vetor.
 - c)A estrutura do endpoint deverá conter o campo de id e tempo para realização da consulta.
 
-- Questão 02:
-- Realizar o deploy da API REST desenvolvida na questão anterior utilizando o TOMCAT 7 em uma máquina virtual com o sistema operacional Linux.
+- 02:
+- Realizar o deploy da API REST desenvolvida na questão anterior utilizando o HEROKU com o sistema operacional Linux.
 
-- Questão 03:
-O código desenvolvido deverá ser publicado em uma página pública como projeto API REST no  GitLab (sua conta pessoal) e compartilhado com alana@sensorweb.com.br e gabriel@sensorweb.com.br.
-
-- Questão 04:
-Se concluída as questões anteriores realizar uma apresentação da API em funcionamento em uma última entrevista para avaliação técnica  a ser agendada.
-
-- A data de entrega será informada pelo responsável do RH. 
-
-- Questão 1 (Concluida)
-- Questão 2 (Concluida)
-- Questão 3 (Concluida)
-- Questão 4 (Concluida)
-
-# OBS: Todas As questões solicitadas foram concluidas incluindo o deploy da aplicação!
+- 03:
+O código desenvolvido deverá ser publicado em uma página pública como projeto API REST no  GitLab (sua conta pessoal)
 
 - Foram adcionadas novas funcionalidades como deletar e atualizar
 - Padrão De Projeto usado DDD Domain-Driven Design
@@ -58,9 +43,6 @@ Se concluída as questões anteriores realizar uma apresentação da API em func
 - Encontrar um serviço apartir de um id
 - Atualizar o serviço por um id em específico
 - Remover o serviço atráves de um id 
-
-
-
 
 # Corpo Da Requisição:(exemplo de como foi testado a API em JSON! POST MAPPING)
     
